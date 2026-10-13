@@ -168,7 +168,7 @@
         // Estrutura das opções do menu (Ficheiros configurado com extensão pdf)
         const menuItems = [
             { name: "Curtas", folder: "Curtas", prefix: "curta", ext: "jpg", type: "image" },
-            { name: "Fichas", folder: "Fichas", prefix: "ficha", ext: "jpg", type: "image" },
+            { name: "Fichas", folder: "Fichas", prefix: "ficha", ext: "pdf", type: "pdf" },
             { name: "Filmes", folder: "Filmes", prefix: "filme", ext: "avi", type: "video" },
             { name: "Finais", folder: "Finais", prefix: "final", ext: "jpg", type: "image" },
             { name: "Golpes", folder: "Golpes", prefix: "golpe", ext: "jpg", type: "image" },
@@ -289,8 +289,8 @@
                 : `Informação detalhada referente ao item ${labelName}.`;
 
             let footerExtra = '';
-            if (category.name === "Ficheiros") {
-                const docPath = `${category.folder}/${labelName}.doc`;
+            if (category.name === "Ficheiros"|| category.name === "Fichas") {
+                const docPath = `${category.folder}/${labelName}.docx`;
                 footerExtra = `
                     <div class="mt-3 pt-2 border-t border-sage-100 flex items-center justify-between">
                         <span class="text-xs text-sage-600">Versão editável:</span>
@@ -299,6 +299,7 @@
                             Baixar / Abrir ${labelName}.doc
                         </a>
                     </div>
+
                 `;
             }
 
