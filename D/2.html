@@ -44,15 +44,15 @@
     <!-- Contentor Principal (Mobile First: max-w-md para telemóveis, expansível) -->
     <div class="w-full max-w-md mx-auto flex flex-col gap-4">
 
-        <!-- CABEÇALHO -->
+	<!-- CABEÇALHO -->
         <header class="board-card rounded-2xl p-3 sm:p-4 flex items-center justify-between gap-3 shadow-lg">
             <div class="flex items-center gap-3">
-                <!-- Imagem do Logótipo da Escola com fallback visual -->
-                <div class="flex-shrink-0 bg-white p-1.5 rounded-xl border border-amber-200 shadow-sm flex items-center justify-center">
+                <!-- Caixa do Logótipo da Escola -->
+                <div class="flex-shrink-0 w-16 h-12 bg-white p-1 rounded-xl border border-amber-200 shadow-sm flex items-center justify-center">
                     <img 
                         src="div/logoescolapeq.png" 
                         alt="Logo Escola" 
-                        class="h-10 w-auto max-w-[120px] object-contain"
+                        class="max-h-full max-w-full object-contain"
                         onerror="this.onerror=null; this.src='https://placehold.co/120x40/5c3a21/ffffff?text=ESCOLA';"
                     >
                 </div>
@@ -62,9 +62,14 @@
                 </h1>
             </div>
             
-            <!-- Ícone/Símbolo decorativo de peça de damas -->
-            <div class="w-7 h-7 rounded-full bg-gradient-to-br from-amber-700 to-amber-900 border-2 border-amber-300 shadow-md flex-shrink-0 flex items-center justify-center">
-                <div class="w-4 h-4 rounded-full border border-amber-400/50"></div>
+            <!-- Caixa do Logótipo da Toyota (com as mesmas dimensões exatas) -->
+            <div class="flex-shrink-0 w-16 h-12 bg-white p-1 rounded-xl border border-amber-200 shadow-sm flex items-center justify-center">
+                <img 
+                    src="div/toyota.png" 
+                    alt="Toyota" 
+                    class="max-h-full max-w-full object-contain"
+                    onerror="this.onerror=null; this.src='https://placehold.co/60x40/5c3a21/ffffff?text=TOYOTA';"
+                >
             </div>
         </header>
 
@@ -87,12 +92,9 @@
         <!-- CARTÃO INFERIOR (DIAGRAMA DE DAMAS) -->
         <section class="board-card rounded-2xl p-4 sm:p-5 shadow-lg border-t-4 border-t-amber-900 flex flex-col items-center">
 
-                <h2 class="text-base font-bold text-[#422917] uppercase tracking-wider flex items-center gap-2">
-
-               <!--       Diagrama -->
-                </h2>
-
-            
+            <h2 class="text-base font-bold text-[#422917] uppercase tracking-wider flex items-center gap-2">
+                <!-- Diagrama -->
+            </h2>
 
             <!-- Moldura e Imagem do Diagrama -->
             <div class="diagram-container w-full rounded-xl p-1 sm:p-2 flex justify-center items-center overflow-hidden">
@@ -104,6 +106,16 @@
                 >
             </div>
         </section>
+
+        <!-- BOTÃO COM LINK PARA s1.html (POR BAIXO DO TABULEIRO) -->
+        <div class="flex justify-center my-1">
+            <a 
+                href="s2.html" 
+                class="w-full text-center bg-gradient-to-r from-amber-700 to-amber-900 hover:from-amber-800 hover:to-amber-950 text-amber-100 font-bold py-3 px-6 rounded-2xl shadow-lg border border-amber-600/40 transition-all duration-200 transform active:scale-95"
+            >
+                Ver CHAVE
+            </a>
+        </div>
 
         <!-- RODAPÉ COMPACTO -->
         <footer class="text-center text-xs text-amber-200/60 py-2">
