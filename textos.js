@@ -134,5 +134,28 @@ const fileDescriptions = {
         "ficheiro13": "Descrição para ficheiro 13.",
         "ficheiro14": "Descrição para ficheiro 14.",
         "ficheiro15": "Descrição para ficheiro 15."
-    }
+    },
+    "Damas e Sol": {
+    	"sol01": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol02": "Jogam as Brancas e ganham<br>Posição que ocorreu num jogo, entre Luiz Jorge e Silva Furtado.<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+	"sol03": "Jogam as Brancas e Ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol04": "Jogam as Negras e ganham<br>Um jogo disputado, na Sala Atlas do sítio www.ludoteka.com, em Novembro de 2004, entre os jogadores com nicks Ruifer (Brancas) e Karparovic (Negras).<br>1)10-13, 23-19; 2)05-10, 28-23; 3)13-17, 32-28; 4)01-05, 21-18; 5)11-15, 18-14; 6)07-11, 14x07; 7)04x11, 25-21; 8)11-14, 22-18; 9)15x22, 18x11; 10)06x15, 27x18; 11)10-13, 18-14; 12)03-07, 23-20; 13)15-19, 20-15; 14)02-06<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol05": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol06": "Jogam as Negras e ganham<br>As Brancas jogaram 26-29=D e ficou esta posição.<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol07": "Jogam as Brancas e ganham<br>As Negras jogaram 03-07 e ficou a seguinte posição.<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol08": "Jogam as Brancas e ganham<br>As Negras jogaram 07-11 e ficou a seguinte posição<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol09": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol10": "Jogam as Brancas e ganham<br>As Negras jogaram 29-25 e ficou a seguinte posição<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol11": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol12": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol13": "Jogam as Negras e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol14": "Jogam as Negras e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol15": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol16": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol17": "Jogam as Brancas e ganham<br>Golpe surgido num jogo entre Armindo Gaspar (Brancas) e Aníbal (Negras).<br>1)12-15, 23-19; 2)08-12, 21-18; 3)10-13, 28-23; 4)13-17, 19-14; 5)06-10, 23-19; 6)10-13, 32-28<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol18": "Jogam as Brancas e ganham<br>Resolvido por Karparov, tendo por adversário o damista com nick Rainbow, no sítio www.ludoteka.com , em 30/03/05.<br>1)10-13, 21-17; 2)13-18, 22x13; 3)09x18, 23-19; 4)12-15, 19x12; 5)08x15, 28-23; 6)05-09, 23-20; 7)01-05, 26-21; 8)06-10, 21x14; 9)10x19, 25-21; 10)05-10, 21-18; 11)10-14, 29-25; 12)14x21, 25x18<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol19": "Jogam as Brancas e ganham<br>Armindo Gaspar apelidou este problema de \"pégaso\".<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol20": "Jogam as Brancas e ganham<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar.",
+    	"sol21": "Jogam as Negras e ganham<br>1)10-13, 23-19; 2)05-10, 28-23; 3)02-05, 32-28; 4)12-16, 19-15; 5)11x20, 24x15; 6)07-11<br>Rubrica com problemas enviados, no início do século, por um damista algarvio de nome Armindo Gaspar."
+}
 };
