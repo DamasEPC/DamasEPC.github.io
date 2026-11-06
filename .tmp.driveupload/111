@@ -1,0 +1,66 @@
+Exatamente. Daqui para a frente, sempre que:
+
+adicionares ficheiros novos;
+alterares ficheiros existentes;
+apagares ficheiros;
+
+fazes:
+
+Shell
+git add .
+git commit -m "Descrição da alteração"
+git push
+
+Exemplos:
+
+Shell
+git add .
+git commit -m "Adicionados problemas de abertura"
+git push
+
+ou
+
+Shell
+git add .
+git commit -m "Corrigido menu principal"
+git push
+
+ou
+
+Shell
+git add .
+git commit -m "Nova página de torneios"
+git push
+
+Para veres o que mudou antes de enviar:
+
+Shell
+git status
+
+E para veres rapidamente o que foi alterado:
+
+Shell
+git diff
+
+O ciclo normal passa a ser:
+
+Plain Text
+Editar ficheiros
+↓
+git add .
+↓
+git commit -m "o que fiz"
+↓
+git push
+↓
+GitHub atualiza o site
+
+Como o GitHub Pages já está configurado, não precisas de voltar a mexer em Páginas. Basta fazeres git push sempre que quiseres publicar alterações. 🚀
+
+Uma dica: guarda estes 3 comandos num ficheiro PUBLICAR.txt na pasta do projeto para não teres de os decorar:
+
+Shell
+git add .
+git commit -m "Alterações"
+git push
+Forneça seus comentários sobre o BizChat

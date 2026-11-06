@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema de Damas</title>
+    <!-- Favicon / Ícone de Título configurado para cf.png -->
+    <link rel="icon" href="div/cf.png" type="image/png">
+    
+    <!-- Tailwind CSS CDN para estilização rápida e moderna -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonte Inter para tipografia limpa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Configuração de cores personalizadas e estilo temático de damas -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #2b1f1d; /* Castelo/Madeira escuro */
+            background-image: radial-gradient(#3a2b28 1px, transparent 1px);
+            background-size: 16px 16px;
+        }
+
+        /* Estilo do Tabuleiro/Moldura nos cartões */
+        .board-card {
+            background-color: #f7f3e9; /* Creme de casa clara de tabuleiro */
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+            border: 1px solid #e2d9c8;
+        }
+
+        /* Moldura elegante com tema de madeira para a imagem do diagrama */
+        .diagram-container {
+            border: 4px solid #5c3a21;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+            background-color: #e5d3b3;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800 flex flex-col items-center justify-start p-3 sm:p-6">
+
+    <!-- Contentor Principal (Mobile First: max-w-md para telemóveis, expansível) -->
+    <div class="w-full max-w-md mx-auto flex flex-col gap-4">
+
+	<!-- CABEÇALHO -->
+        <header class="board-card rounded-2xl p-3 sm:p-4 flex items-center justify-between gap-3 shadow-lg">
+            <div class="flex items-center gap-3">
+                <!-- Caixa do Logótipo da Escola -->
+                <div class="flex-shrink-0 w-16 h-12 bg-white p-1 rounded-xl border border-amber-200 shadow-sm flex items-center justify-center">
+                    <img 
+                        src="div/logoescolapeq.png" 
+                        alt="Logo Escola" 
+                        class="max-h-full max-w-full object-contain"
+                        onerror="this.onerror=null; this.src='https://placehold.co/120x40/5c3a21/ffffff?text=ESCOLA';"
+                    >
+                </div>
+                <!-- Título do Cabeçalho -->
+                <h1 class="text-lg sm:text-xl font-extrabold text-[#3a2312] tracking-tight leading-tight">
+                    Problema de Damas nº 01
+                </h1>
+            </div>
+            
+            <!-- Caixa do Logótipo da Delta (com as mesmas dimensões exatas) -->
+            <div class="flex-shrink-0 w-16 h-12 bg-white p-1 rounded-xl border border-amber-200 shadow-sm flex items-center justify-center">
+                <img 
+                    src="div/delta-of2.svg" 
+                    alt="Delta" 
+                    class="max-h-full max-w-full object-contain"
+                    onerror="this.onerror=null; this.src='https://placehold.co/60x40/5c3a21/ffffff?text=Delta';"
+                >
+            </div>
+        </header>
+
+        <!-- CARTÃO SUPERIOR (TEXTO EXPLICATIVO DO PROBLEMA) -->
+        <section class="board-card rounded-2xl p-5 shadow-lg border-t-4 border-t-amber-800">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="inline-block w-3 h-3 rounded-full bg-amber-800"></span>
+                <h2 class="text-base font-bold text-[#422917] uppercase tracking-wider">
+                    Timoneda (1635) <br> Jogam as Brancas e ganham
+                </h2>
+            </div>
+            
+            <div class="text-slate-700 text-sm sm:text-base leading-relaxed space-y-2">
+                <p>
+                    Analise a posição no diagrama abaixo. Encontre a sequência perfeita de lances para obter a vitória.
+                </p>
+            </div>
+        </section>
+
+        <!-- CARTÃO INFERIOR (DIAGRAMA DE DAMAS) -->
+        <section class="board-card rounded-2xl p-4 sm:p-5 shadow-lg border-t-4 border-t-amber-900 flex flex-col items-center">
+
+            <h2 class="text-base font-bold text-[#422917] uppercase tracking-wider flex items-center gap-2">
+                <!-- Diagrama -->
+            </h2>
+
+            <!-- Moldura e Imagem do Diagrama -->
+            <div class="diagram-container w-full rounded-xl p-1 sm:p-2 flex justify-center items-center overflow-hidden">
+                <img 
+                    src="diag/1.jpg" 
+                    alt="Diagrama do Problema de Damas" 
+                    class="w-full h-auto max-w-full rounded-lg object-contain shadow-inner transition-transform duration-300 hover:scale-[1.01]"
+                    onerror="this.onerror=null; this.src='https://placehold.co/400x400/e5d3b3/5c3a21?text=Diagrama+(diag/1.jpg)';"
+                >
+            </div>
+        </section>
+
+        <!-- BOTÃO COM LINK PARA s1-d.html (POR BAIXO DO TABULEIRO) -->
+        <div class="flex justify-center my-1">
+            <a 
+                href="s1-d.html" 
+                class="w-full text-center bg-gradient-to-r from-amber-700 to-amber-900 hover:from-amber-800 hover:to-amber-950 text-amber-100 font-bold py-3 px-6 rounded-2xl shadow-lg border border-amber-600/40 transition-all duration-200 transform active:scale-95"
+            >
+                Ver CHAVE
+            </a>
+        </div>
+
+        <!-- RODAPÉ COMPACTO -->
+        <footer class="text-center text-xs text-amber-200/60 py-2">
+            Desafio de Damas &bull; Otimizado para Telemóvel
+        </footer>
+
+    </div>
+
+</body>
+</html>
